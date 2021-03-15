@@ -1,10 +1,6 @@
 ﻿using HFDP.Strategy.Behaviors.Flying;
 using HFDP.Strategy.Behaviors.Quacking;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HFDP.Strategy.Ducks
 {

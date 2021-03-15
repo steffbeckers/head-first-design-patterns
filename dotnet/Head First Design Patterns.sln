@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFDP.Strategy", "HFDP.Strategy\HFDP.Strategy.csproj", "{0233F44D-82BD-4DF0-8101-9AAC7BFD6480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.Strategy", "HFDP.Strategy\HFDP.Strategy.csproj", "{0233F44D-82BD-4DF0-8101-9AAC7BFD6480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFDP.Observer", "HFDP.Observer\HFDP.Observer.csproj", "{327999BF-E5BA-4CFF-B14A-A3F4A3BB0BB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0233F44D-82BD-4DF0-8101-9AAC7BFD6480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0233F44D-82BD-4DF0-8101-9AAC7BFD6480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0233F44D-82BD-4DF0-8101-9AAC7BFD6480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327999BF-E5BA-4CFF-B14A-A3F4A3BB0BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327999BF-E5BA-4CFF-B14A-A3F4A3BB0BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327999BF-E5BA-4CFF-B14A-A3F4A3BB0BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327999BF-E5BA-4CFF-B14A-A3F4A3BB0BB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
