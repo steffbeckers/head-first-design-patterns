@@ -1,4 +1,4 @@
-﻿namespace HFDP.Strategy.Behaviors.Quacking
+﻿namespace HFDP.Strategy.Behaviors
 {
     public interface IQuackBehavior
     {

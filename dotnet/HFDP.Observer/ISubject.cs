@@ -1,6 +1,4 @@
-﻿using HFDP.Observer.Observers;
-
-namespace HFDP.Observer.Subjects
+﻿namespace HFDP.Observer
 {
     public interface ISubject
     {

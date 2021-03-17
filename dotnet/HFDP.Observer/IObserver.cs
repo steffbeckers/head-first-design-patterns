@@ -1,4 +1,4 @@
-﻿namespace HFDP.Observer.Observers
+﻿namespace HFDP.Observer
 {
     public interface IObserver
     {

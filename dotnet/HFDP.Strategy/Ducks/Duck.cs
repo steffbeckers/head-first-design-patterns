@@ -1,9 +1,7 @@
-﻿using HFDP.Strategy.Behaviors.Flying;
-using HFDP.Strategy.Behaviors.Quacking;
+﻿using HFDP.Strategy.Behaviors;
 using System;
 
 namespace HFDP.Strategy.Ducks
-
 {
     public abstract class Duck
     {

@@ -1,4 +1,4 @@
-﻿namespace HFDP.Strategy.Behaviors.Flying
+﻿namespace HFDP.Strategy.Behaviors
 {
     public interface IFlyBehavior
     {

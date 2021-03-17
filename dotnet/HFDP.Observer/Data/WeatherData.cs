@@ -1,7 +1,6 @@
-﻿using HFDP.Observer.Observers;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace HFDP.Observer.Subjects
+namespace HFDP.Observer.Data
 {
     public class WeatherData : ISubject
     {
