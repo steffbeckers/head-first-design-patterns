@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.Strategy", "HFDP.Strategy\HFDP.Strategy.csproj", "{0233F44D-82BD-4DF0-8101-9AAC7BFD6480}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFDP.Observer", "HFDP.Observer\HFDP.Observer.csproj", "{327999BF-E5BA-4CFF-B14A-A3F4A3BB0BB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.Observer", "HFDP.Observer\HFDP.Observer.csproj", "{327999BF-E5BA-4CFF-B14A-A3F4A3BB0BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFDP.Decorator", "HFDP.Decorator\HFDP.Decorator.csproj", "{2B09EF1F-C447-457A-95E2-047B987A61E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{327999BF-E5BA-4CFF-B14A-A3F4A3BB0BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{327999BF-E5BA-4CFF-B14A-A3F4A3BB0BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{327999BF-E5BA-4CFF-B14A-A3F4A3BB0BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B09EF1F-C447-457A-95E2-047B987A61E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B09EF1F-C447-457A-95E2-047B987A61E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B09EF1F-C447-457A-95E2-047B987A61E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B09EF1F-C447-457A-95E2-047B987A61E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
