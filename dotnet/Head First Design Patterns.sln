@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.Observer", "HFDP.Obser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFDP.Decorator", "HFDP.Decorator\HFDP.Decorator.csproj", "{2B09EF1F-C447-457A-95E2-047B987A61E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFDP.FactoryMethod", "HFDP.FactoryMethod\HFDP.FactoryMethod.csproj", "{2B6F2FD3-5F49-427E-B539-487753CBA327}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2B09EF1F-C447-457A-95E2-047B987A61E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B09EF1F-C447-457A-95E2-047B987A61E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B09EF1F-C447-457A-95E2-047B987A61E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B6F2FD3-5F49-427E-B539-487753CBA327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6F2FD3-5F49-427E-B539-487753CBA327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6F2FD3-5F49-427E-B539-487753CBA327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6F2FD3-5F49-427E-B539-487753CBA327}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

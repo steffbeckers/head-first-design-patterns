@@ -4,6 +4,11 @@ using System;
 
 namespace HFDP.Observer
 {
+    // The Observer Pattern defines a one-to-many
+    // dependency between objects so that when one
+    // objects changes state, all of its dependents are
+    // notified and updated automatically.
+
     class Program
     {
         static void Main(string[] args)

@@ -4,6 +4,11 @@ using System;
 
 namespace HFDP.Strategy
 {
+    // The Strategy Pattern defines a family if algorithms,
+    // encapsulates each one, and makes them interchangeable.
+    // Strategy lets the algorithm vary independently from
+    // clients that use it.
+
     class Program
     {
         static void Main(string[] args)
