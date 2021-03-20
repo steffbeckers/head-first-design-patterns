@@ -2,9 +2,9 @@
 {
     public abstract class Beverage
     {
-        private string _description;
+        private string _description = "Unknown Beverage";
 
-        public string GetDescription()
+        public virtual string GetDescription()
         {
             return _description;
         }
