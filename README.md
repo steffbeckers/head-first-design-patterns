@@ -38,3 +38,5 @@ The Abstract Factory Pattern provides an interface for creating families of rela
 
 Relies on object composition: object creation is implemented in methods exposed in the factory interface.
 
+### Singleton
+
