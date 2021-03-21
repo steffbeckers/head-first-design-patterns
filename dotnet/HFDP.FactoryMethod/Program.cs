@@ -1,4 +1,6 @@
-﻿using System;
+﻿using HFDP.FactoryMethod.Pizzas;
+using HFDP.FactoryMethod.Stores;
+using System;
 
 namespace HFDP.FactoryMethod
 {
@@ -15,6 +17,17 @@ namespace HFDP.FactoryMethod
             Console.WriteLine("-----------");
 
             Console.WriteLine();
+
+            PizzaStore nyStore = new NYStylePizzaStore();
+            PizzaStore chicagoStore = new ChicagoStylePizzaStore();
+
+            Pizza pizza = nyStore.OrderPizza("cheese");
+            Console.WriteLine($"Ethan ordered a {pizza.Name}");
+
+            Console.WriteLine();
+
+            pizza = chicagoStore.OrderPizza("cheese");
+            Console.WriteLine($"Joel ordered a {pizza.Name}");
         }
     }
 }
