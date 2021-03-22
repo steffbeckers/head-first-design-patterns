@@ -40,3 +40,4 @@ Relies on object composition: object creation is implemented in methods exposed 
 
 ### Singleton
 
+The Singleton Pattern ensures a class has only one instance, and provides a global point of access to it.
