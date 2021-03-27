@@ -15,5 +15,10 @@ namespace HFDP.Command.Commands
         {
             _stereo.Off();
         }
+
+        public void Undo()
+        {
+            _stereo.On();
+        }
     }
 }

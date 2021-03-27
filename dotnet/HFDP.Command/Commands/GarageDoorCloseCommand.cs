@@ -15,5 +15,10 @@ namespace HFDP.Command.Commands
         {
             _garageDoor.Down();
         }
+
+        public void Undo()
+        {
+            _garageDoor.Up();
+        }
     }
 }
