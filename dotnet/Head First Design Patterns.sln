@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.FactoryMethod", "HFDP.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.AbstractFactory", "HFDP.AbstractFactory\HFDP.AbstractFactory.csproj", "{C29CFF22-3879-4E8C-A054-2188FA50FE23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFDP.Singleton", "HFDP.Singleton\HFDP.Singleton.csproj", "{D1E000C4-1FE4-484D-98B9-8352203A286D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.Singleton", "HFDP.Singleton\HFDP.Singleton.csproj", "{D1E000C4-1FE4-484D-98B9-8352203A286D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFDP.Command", "HFDP.Command\HFDP.Command.csproj", "{EA2865F5-AEA2-4AA5-817A-0ABA0B2429BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D1E000C4-1FE4-484D-98B9-8352203A286D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1E000C4-1FE4-484D-98B9-8352203A286D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1E000C4-1FE4-484D-98B9-8352203A286D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA2865F5-AEA2-4AA5-817A-0ABA0B2429BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2865F5-AEA2-4AA5-817A-0ABA0B2429BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2865F5-AEA2-4AA5-817A-0ABA0B2429BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2865F5-AEA2-4AA5-817A-0ABA0B2429BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
