@@ -45,3 +45,9 @@ The Singleton Pattern ensures a class has only one instance, and provides a glob
 ### Command
 
 The Command Pattern encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
+
+### Adapter
+
+### Facade
+
+### Template
