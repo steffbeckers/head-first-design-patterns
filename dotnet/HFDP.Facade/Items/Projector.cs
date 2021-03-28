@@ -28,7 +28,7 @@ namespace HFDP.Facade.Items
 
         public void WideScreenMode()
         {
-            Console.WriteLine($"{_name} wide screen mode set");
+            Console.WriteLine($"{_name} in widescreen mode (16x9 aspect ratio)");
         }
 
         public override string ToString()

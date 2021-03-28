@@ -45,6 +45,7 @@ namespace HFDP.Facade
             _screen.Down();
             _projector.On();
             _projector.WideScreenMode();
+            _amp.On();
             _amp.SetDvd(_dvd);
             _amp.SetSurroundSound();
             _amp.SetVolume(5);

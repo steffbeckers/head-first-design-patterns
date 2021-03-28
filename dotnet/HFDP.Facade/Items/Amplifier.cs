@@ -37,7 +37,7 @@ namespace HFDP.Facade.Items
         public void SetDvd(DvdPlayer dvdPlayer)
         {
             _dvdPlayer = dvdPlayer;
-            Console.WriteLine($"{_name} setting DVD player to {_cdPlayer}");
+            Console.WriteLine($"{_name} setting DVD player to {_dvdPlayer}");
         }
 
         public void SetStereoSound()

@@ -5,6 +5,7 @@ namespace HFDP.Facade.Items
     public class DvdPlayer
     {
         private string _name;
+        private string _nowPlaying;
 
         public DvdPlayer(string name)
         {
@@ -23,7 +24,7 @@ namespace HFDP.Facade.Items
 
         public void Eject()
         {
-            Console.WriteLine($"{_name} ejected DVD");
+            Console.WriteLine($"{_name} eject");
         }
 
         public void Pause()
@@ -33,7 +34,8 @@ namespace HFDP.Facade.Items
 
         public void Play(string title)
         {
-            Console.WriteLine($"{_name} plays DVD: {title}");
+            _nowPlaying = title;
+            Console.WriteLine($"{_name} playing \"{_nowPlaying}\"");
         }
 
         public void SetSurroundAudio()
@@ -48,7 +50,8 @@ namespace HFDP.Facade.Items
 
         public void Stop()
         {
-            Console.WriteLine($"{_name} stopped playing DVD");
+            Console.WriteLine($"{_name} stopped \"{_nowPlaying}\"");
+            _nowPlaying = null;
         }
 
         public override string ToString()
