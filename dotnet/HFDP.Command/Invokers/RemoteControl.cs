@@ -40,7 +40,7 @@ namespace HFDP.Command.Invokers
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            
+
             stringBuilder.Append("\n------ Remote Control -------\n");
 
             for (int i = 0; i < _onCommands.Length; i++)
