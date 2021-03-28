@@ -11,6 +11,7 @@ Java source code as used in examples of the book.
 - Strive for loosely coupled designs between objects that interact.
 - Open-closed: Classes should be open for extension, but closed for modification. (S**O**LID)
 - Dependency Inversion: Depend upon abstractions. Do not depend upon concrete classes. (SOLI**D**)
+- Principle of Least Knowledge: talk only to your immediate friends.
 
 ## Design Patterns
 
@@ -51,5 +52,7 @@ The Command Pattern encapsulates a request as an object, thereby letting you par
 The Adapter Pattern converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 
 ### Facade
+
+The Facade Pattern provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher level interface that makes the subsystem easier to use.
 
 ### Template
