@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.Singleton", "HFDP.Sing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.Command", "HFDP.Command\HFDP.Command.csproj", "{EA2865F5-AEA2-4AA5-817A-0ABA0B2429BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFDP.Adapter", "HFDP.Adapter\HFDP.Adapter.csproj", "{551FBCB3-A8E0-4E39-A7B4-77507DB3CE50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.Adapter", "HFDP.Adapter\HFDP.Adapter.csproj", "{551FBCB3-A8E0-4E39-A7B4-77507DB3CE50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFDP.Facade", "HFDP.Facade\HFDP.Facade.csproj", "{26CB7572-00D7-4F5D-A6C5-933D4F805035}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.Facade", "HFDP.Facade\HFDP.Facade.csproj", "{26CB7572-00D7-4F5D-A6C5-933D4F805035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFDP.TemplateMethod", "HFDP.TemplateMethod\HFDP.TemplateMethod.csproj", "{64A2A947-780D-4097-ACF0-CE0351A5027E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{26CB7572-00D7-4F5D-A6C5-933D4F805035}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26CB7572-00D7-4F5D-A6C5-933D4F805035}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26CB7572-00D7-4F5D-A6C5-933D4F805035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A2A947-780D-4097-ACF0-CE0351A5027E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A2A947-780D-4097-ACF0-CE0351A5027E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A2A947-780D-4097-ACF0-CE0351A5027E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A2A947-780D-4097-ACF0-CE0351A5027E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

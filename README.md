@@ -3,15 +3,20 @@
 .NET source code I've created myself while reading the book.
 Java source code as used in examples of the book.
 
-## Design Principles
+## OO Design Principles
 
 - Identify the aspects of your application that vary and separate them from what stays the same.
 - Program to an interface, not an implementation.
 - Favor composition over inheritance.
 - Strive for loosely coupled designs between objects that interact.
-- Open-closed: Classes should be open for extension, but closed for modification. (S**O**LID)
-- Dependency Inversion: Depend upon abstractions. Do not depend upon concrete classes. (SOLI**D**)
 - Principle of Least Knowledge: talk only to your immediate friends.
+- The Hollywood Principle: Don't call us, we'll call you.
+- SOLID
+  - **S**ingle-Responsibility: A class should have one and only one reason to change, meaning that a class should have only one job.
+  - **O**pen-Closed: Classes should be open for extension, but closed for modification.
+  - **L**iskov Substitution: Every subclass or derived class should be substitutable for their base or parent class.
+  - **I**nterface Segregation: A client should never be forced to implement an interface that it doesn’t use, or clients shouldn’t be forced to depend on methods they do not use.
+  - **D**ependency Inversion: Depend upon abstractions. Do not depend upon concrete classes. (SOLI**D**)
 
 ## Design Patterns
 
@@ -55,4 +60,7 @@ The Adapter Pattern converts the interface of a class into another interface the
 
 The Facade Pattern provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher level interface that makes the subsystem easier to use.
 
-### Template
+### Template Method
+
+The Template Method Pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+
