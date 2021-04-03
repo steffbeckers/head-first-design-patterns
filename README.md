@@ -64,3 +64,10 @@ The Facade Pattern provides a unified interface to a set of interfaces in a subs
 
 The Template Method Pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
 
+### Iterator
+
+The Iterator Pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlaying representation.
+
+### Composite
+
+The Composite Pattern allows you to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
