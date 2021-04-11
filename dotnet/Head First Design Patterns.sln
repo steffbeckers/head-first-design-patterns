@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.Iterator", "HFDP.Itera
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.Composite", "HFDP.Composite\HFDP.Composite.csproj", "{0923BA3B-FFF5-483F-8CB0-D613AF36FA5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFDP.State", "HFDP.State\HFDP.State.csproj", "{11A2EED8-4B46-413A-9C84-E7D8F2564F1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFDP.State", "HFDP.State\HFDP.State.csproj", "{11A2EED8-4B46-413A-9C84-E7D8F2564F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFDP.Proxy", "HFDP.Proxy\HFDP.Proxy.csproj", "{E19B0922-8E95-4108-8B20-0B9CA6FF9BB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{11A2EED8-4B46-413A-9C84-E7D8F2564F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11A2EED8-4B46-413A-9C84-E7D8F2564F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11A2EED8-4B46-413A-9C84-E7D8F2564F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E19B0922-8E95-4108-8B20-0B9CA6FF9BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19B0922-8E95-4108-8B20-0B9CA6FF9BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19B0922-8E95-4108-8B20-0B9CA6FF9BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19B0922-8E95-4108-8B20-0B9CA6FF9BB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
